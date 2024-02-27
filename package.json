@@ -1,0 +1,32 @@
+{
+    "name": "Proyecto_Base_Cypress",
+    "version": "1.0.0",
+    "description": "Proyecto Base de Cypress de integracion de herramientas de autoamtizacion de pruebas",
+    "main": "index.js",
+    "scripts": {
+        "cypress:execution": "cypress run",
+        "cypress:tag": "npx cypress run --env TAGS=@Prueba"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AngelicaCaballerom/Cypress_Cucumber_JS.git"
+    },
+    "keywords": [
+        "Cypress",
+        "Cucumber",
+        "Gherkin",
+        "ReportHTML"
+    ],
+    "author": "Angelica Caballero",
+    "license": "ISC",
+    "devDependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^16.0.0",
+        "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+        "@cypress/webpack-preprocessor": "^5.17.1",
+        "cypress": "^12.5.1",
+        "cypress-file-upload": "^5.0.8",
+        "cypress-xpath": "^2.0.1",
+        "esbuild": "^0.17.0",
+        "multiple-cucumber-html-reporter": "^2.0.0"
+    }
+}
