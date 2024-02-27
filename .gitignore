@@ -8,3 +8,5 @@ node_modules
 *.flv
 *.mov
 *.wmv
+# Cucumber Report
+reports
